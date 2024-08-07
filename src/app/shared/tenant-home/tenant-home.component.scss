@@ -1,0 +1,24 @@
+/* Exemplo de estilos específicos para tenant0 */
+// :host-context(.theme0) {
+//   .toolbar {
+//       color: blue;
+//     }
+//   }
+
+// /* Exemplo de estilos específicos para tenant1 */
+// :host-context(.theme1) {
+//   .toolbar {
+//     color: green !important;
+//     background-color: green !important;
+//   }
+// }
+
+body.theme0 .toolbar {
+  //color: blue;
+  background-color: black !important;
+}
+
+body.theme1 .toolbar {
+  //color: green;
+  background-color: green !important;
+}
